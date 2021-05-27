@@ -4,14 +4,14 @@
 
 using namespace cv;
 int main() {
-	Mat src = imread("D:/opencvcode/img/13.png",IMREAD_COLOR);//IMREAD_UNCHANGED/载入像素//声明像素变量IMREAD_GRAYSCALE
+	Mat src = imread("D:/opencvcode/img/13.png",IMREAD_COLOR);//IMREAD_UNCHANGED/脭艠膶毛膸艅脣艠//脡暖膫梅膸艅脣艠膮盲脕偶IMREAD_GRAYSCALE
 	if (src.empty()) {
 		printf("could not load.");
 		return -1;
 	}
 
-	namedWindow("opencv img1", WINDOW_AUTOSIZE);//定义显示窗口
-	imshow("opencv img1", src);//显示像素
+	namedWindow("opencv img1", WINDOW_AUTOSIZE);//艣篓艊暮膸脭臉啪麓掳偶脷
+	imshow("opencv img1", src);//膸脭臉啪膸艅脣艠
 
 	namedWindow("outputwindow", WINDOW_AUTOSIZE);
 	Mat output_image;
@@ -21,16 +21,16 @@ int main() {
 	waitKey(5000);
 	
 	//Mat result;
-	//flip(src, result, 1);//反转像素
+	//flip(src, result, 1);//藝麓脳艦膸艅脣艠
 	//namedWindow("opencv img2");
 	//imshow("opencv img2", result);
 	//waitKey(5000);
 
 	//Mat output;
-	//cvtColor(src, output, COLOR_BGR2HLS);//改变像素
+	//cvtColor(src, output, COLOR_BGR2HLS);//赂脛膮盲膸艅脣艠
 	//imshow("output windows", output);
 
-	//imwrite("13-2.png", output);//保存
+	//imwrite("13-2.png", output);//膮艁麓膰
 
 	//waitKey(5000);
 	return 0;
